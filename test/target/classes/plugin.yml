@@ -1,0 +1,6 @@
+main: com.github.Main
+name: test
+version: 0.0.1
+commands:
+  example:
+    description: This is an EXAMPLE COMMAND.
