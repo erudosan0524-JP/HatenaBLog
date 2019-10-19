@@ -8,6 +8,13 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
 public class CommandManager implements CommandExecutor{
+//
+//	JavaPlugin plg;
+//
+//	public CommandManager(JavaPlugin plg) {
+//		this.plg = plg;
+//	}
+
 
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		if(!(sender instanceof Player)) {
@@ -28,6 +35,26 @@ public class CommandManager implements CommandExecutor{
 					return true;
 				}
 			}
+
+//			if(args[0].equalsIgnoreCase("start")) {
+//				//example start <何か>
+//				if(args[1].length() != 0) {
+//					int i;
+//					try {
+//						i = Integer.parseInt(args[1]);
+//					}catch(NumberFormatException e) {
+//						i = 10;
+//					}
+//					Timer timer = new Timer(plg,i);
+//
+//					@SuppressWarnings("deprecation")
+//					BukkitTask task = plg.getServer().getScheduler().runTaskTimer(plg, timer, 0L, 20L);
+//
+//					timer.setTask(task);
+//
+//					return true;
+//				}
+//			}
 		}
 
 

@@ -4,3 +4,8 @@ version: 0.0.1
 commands:
   example:
     description: This is an EXAMPLE COMMAND.
+permissions:
+  test.example:
+    default: true
+  test.example.a:
+    default: op
